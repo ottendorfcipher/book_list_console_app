@@ -27,11 +27,11 @@ Clone or download this repository
 ``` python book_manager.py ``` 
 
 ### Follow the menu prompts:
-Enter 1 to add a book
-Enter 2 to view your book collection
-Enter 3 to delete a book
-Enter 4 to export to CSV
-Enter 5 to exit the program
+- Enter 1 to add a book
+- Enter 2 to view your book collection
+- Enter 3 to delete a book
+- Enter 4 to export to CSV
+- Enter 5 to exit the program
 
 ### CSV Export
 The exported CSV file contains the following columns:
