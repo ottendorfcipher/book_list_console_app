@@ -7,13 +7,14 @@ This simple Python application allows users to maintain a list of books with bas
 - Book title
 - Author's first and last name
 - Price
-- The program runs in the console/terminal and provides a straightforward way to add, view, and delete books before exporting the collection to a CSV file.
+
+The program runs in the console/terminal and provides a straightforward way to add, view, and delete books before exporting the collection to a CSV file.
 
 ### Features
-Add new books with title, author details, and price
-View the entire book collection in a formatted table
-Delete books by index number
-Export the collection to a CSV file
+- Add new books with title, author details, and price
+- View the entire book collection in a formatted table
+- Delete books by index number
+- Export the collection to a CSV file
 
 ### Requirements
 Python 3.x
@@ -39,7 +40,8 @@ The exported CSV file contains the following columns:
 - author_first_name
 - author_last_name
 - price
-- You can specify a custom filename during export or use the default books.csv.
+
+You can specify a custom filename during export or use the default books.csv.
 
 ### Limitations
 - Data is not persistent between program runs (books are stored in memory)
