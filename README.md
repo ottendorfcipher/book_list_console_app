@@ -23,13 +23,14 @@ A desktop application for managing your book collection with MongoDB integration
 ## Installation
 
 1. Clone the repository or download the source code
-```git clone https://github.com/yourusername/book-management-system.git
-cd book-management-system```
 
-2. Install the required dependencies
+`git clone https://github.com/yourusername/book-management-system.git`
+`cd book-management-system`
+
+3. Install the required dependencies
 `pip install PyQt5 pymongo pandas openpyxl`
 
-3. Make sure MongoDB is installed and running on your system
+4. Make sure MongoDB is installed and running on your system
 - If you haven't installed MongoDB yet, follow the [official installation guide](https://docs.mongodb.com/manual/installation/)
 - By default, the application connects to MongoDB at `mongodb://localhost:27017/`
 - If your MongoDB setup is different, update the connection string in `database_handler.py`
