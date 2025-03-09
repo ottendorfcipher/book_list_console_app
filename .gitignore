@@ -1,13 +1,29 @@
+# Directories to ignore
+dist/
+data/
+build/
+
 # Python bytecode files
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Distribution / packaging
-dist/
-build/
 *.egg-info/
 *.egg
+.Python
+env/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.so
 
 # Virtual environments
 venv/
@@ -15,9 +31,6 @@ env/
 ENV/
 .env/
 .venv/
-
-# Data
-data/
 
 # IDE specific files
 .idea/
@@ -46,7 +59,6 @@ qrc_*.cpp
 ui_*.h
 
 # Generated files
-*.so
 *.dylib
 *.dll
 *.exe
