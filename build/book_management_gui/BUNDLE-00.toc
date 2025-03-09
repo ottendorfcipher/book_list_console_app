@@ -1,3 +1,0 @@
-([('book_management_gui',
-   '/Users/nicholasweiner/book_list_console_app/dist/book_management_gui',
-   'EXECUTABLE')],)
