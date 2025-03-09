@@ -16,6 +16,9 @@ ENV/
 .env/
 .venv/
 
+# Data
+data/
+
 # IDE specific files
 .idea/
 .vscode/
